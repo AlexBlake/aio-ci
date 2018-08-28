@@ -11,7 +11,7 @@ ENV NVM_VERSION v0.33.11
 
 # update the repository sources list + install dependencies
 RUN apt-get update \
-    && apt-get install -y curl python-dev zip \
+    && apt-get install -y curl python-dev git zip \
     && apt-get -y autoclean
 
 # replace shell with bash so we can source files
