@@ -1,2 +1,6 @@
 # aio-ci
-My own generic CI docker image
+Generic CI docker image for simplified deployments
+
+## Contents
+NVM
+AWS CLI
